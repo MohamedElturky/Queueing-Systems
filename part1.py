@@ -1,12 +1,5 @@
 class TheoreticalCalculation:
     def __init__(self, arrival_rate=None, service_rate=None, utilization_factor=None):
-        """
-        at least set 2 attributes
-
-        :param arrival_rate: λ (customers/hour)
-        :param service_rate: µ (customers/hour)
-        :param utilization_factor:
-        """
         self.arrival_rate = arrival_rate
         self.service_rate = service_rate
         if [arrival_rate, service_rate, utilization_factor].count(None) > 1:
